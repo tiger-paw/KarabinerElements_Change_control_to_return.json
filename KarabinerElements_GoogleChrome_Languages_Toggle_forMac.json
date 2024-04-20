@@ -14,11 +14,13 @@
           },
           "to": [
             { "pointing_button": "button2", "event_type": "mouse_down" },
-            { "pointing_button": "button2", "event_type": "mouse_up" },
-            { "key_code": "t" },
-            { "key_code": "down_arrow" },
-            { "key_code": "down_arrow" },
-            { "key_code": "return_or_enter" }
+            { "pointing_button": "button2", "event_type": "mouse_up" }
+          ],
+          "to_after_key_up": [
+            { "key_code": "t", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "return_or_enter", "halt": true, "delay_milliseconds": 100 }
           ]
         }
       ]
