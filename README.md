@@ -1,0 +1,1 @@
+# KarabinerElements_GoogleChrome_Languages_Toggle_forMac.json
