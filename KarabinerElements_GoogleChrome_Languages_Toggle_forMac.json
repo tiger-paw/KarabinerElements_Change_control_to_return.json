@@ -9,15 +9,15 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "mandatory": ["left_command", "left_shift"]
+              "mandatory": ["left_control"]
             }
           },
           "to": [
-            { "pointing_button": "button2", "halt": true, "delay_milliseconds": 100  },
-            { "key_code": "t", "halt": true, "delay_milliseconds": 100 },
-            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
-            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
-            { "key_code": "return_or_enter", "halt": true, "delay_milliseconds": 100 }
+            { "pointing_button": "button2" },
+            { "key_code": "t"},
+            { "key_code": "down_arrow"},
+            { "key_code": "down_arrow"},
+            { "key_code": "return_or_enter"}
           ]
         }
       ]
