@@ -17,9 +17,6 @@
           ],
           "to_after_key_up": [
             { "key_code": "t", "halt": true, "delay_milliseconds": 100 },
-            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
-            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
-            { "key_code": "return_or_enter", "halt": true, "delay_milliseconds": 100 }
           ]
         }
       ]
