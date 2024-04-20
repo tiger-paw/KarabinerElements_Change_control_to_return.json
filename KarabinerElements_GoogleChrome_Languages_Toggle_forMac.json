@@ -1,0 +1,28 @@
+{
+  "title": "Chrome Languages Toggle",
+  "rules": [
+    {
+      "description": "right click, cursol down, enter, language change",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+	          "key_code": "h",
+            "modifiers":{
+              "mandatory":["control"]
+            }
+          },
+          "to": [
+            { "pointing_button":"button2" },
+            { "key_code": "up_allow" },
+            { "key_code": "up_allow" },
+            { "key_code": "up_allow" },
+            { "key_code": "up_allow" },
+            { "key_code": "up_allow" },
+            { "key_code": "return_or_enter" }
+          ]
+        }
+      ]
+    }
+  ]
+}
