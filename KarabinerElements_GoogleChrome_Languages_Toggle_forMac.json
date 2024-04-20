@@ -14,7 +14,6 @@
           },
           "to": [
             { "pointing_button": "button2" },
-            { "key_code": "t" }
           ]
         }
       ]
