@@ -16,7 +16,7 @@
             { "pointing_button": "button2" }
           ],
           "to_after_key_up": [
-            { "key_code": "t", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "t", "halt": true, "delay_milliseconds": 100 }
           ]
         }
       ]
