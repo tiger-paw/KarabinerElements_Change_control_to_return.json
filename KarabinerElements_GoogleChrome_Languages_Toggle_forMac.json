@@ -2,7 +2,7 @@
   "title": "Chrome Languages Toggle",
   "rules": [
     {
-      "description": "l + left_control",
+      "description": "llll",
       "manipulators": [
         {
           "type": "basic",
