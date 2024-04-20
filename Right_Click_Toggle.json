@@ -1,0 +1,22 @@
+{
+	"title": "Right Click Toggle",
+	"rules": [
+		{
+			"description": "right click",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "j",
+						"modifiers": {
+							"mandatory": ["left_control"]
+						}
+					},
+					"to": [
+						{ "pointing_button": "button2" }
+					]
+				}
+			]
+		}
+	]
+}
