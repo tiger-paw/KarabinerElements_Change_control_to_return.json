@@ -7,14 +7,13 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "l",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": ["left_command", "left_shift"]
             }
           },
           "to": [
-            { "pointing_button": "button2", "event_type": "mouse_down", "halt": true, "delay_milliseconds": 100  },
-            { "pointing_button": "button2", "event_type": "mouse_up", "halt": true, "delay_milliseconds": 100  },
+            { "pointing_button": "button2", "halt": true, "delay_milliseconds": 100  },
             { "key_code": "t", "halt": true, "delay_milliseconds": 100 },
             { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
             { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
