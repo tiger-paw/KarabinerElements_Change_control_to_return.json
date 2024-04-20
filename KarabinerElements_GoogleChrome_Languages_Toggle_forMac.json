@@ -13,18 +13,12 @@
             }
           },
           "to": [
-            {
-              "key_code": "f12",
-              "modifiers": {
-                "mandatory": ["fn"]
-              }
-            }
-          ],
-          "to_after_key_up": [
-            { "key_code": "t", "halt": true, "delay_milliseconds": 10 },
-            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 10 },
-            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 10 },
-            { "key_code": "return_or_enter", "halt": true, "delay_milliseconds": 10 }
+            { "pointing_button": "button2", "event_type": "mouse_down", "halt": true, "delay_milliseconds": 100  },
+            { "pointing_button": "button2", "event_type": "mouse_up", "halt": true, "delay_milliseconds": 100  },
+            { "key_code": "t", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "down_arrow", "halt": true, "delay_milliseconds": 100 },
+            { "key_code": "return_or_enter", "halt": true, "delay_milliseconds": 100 }
           ]
         }
       ]
