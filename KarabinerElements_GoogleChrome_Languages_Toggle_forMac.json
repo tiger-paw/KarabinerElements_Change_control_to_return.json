@@ -2,7 +2,7 @@
   "title": "Chrome Languages Toggle",
   "rules": [
     {
-      "description": "right click, cursor down, enter, language change",
+      "description": "rightclick-cursordown-enter-languagechange",
       "manipulators": [
         {
           "type": "basic",
